@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// The root widget of your application
 class App extends StatelessWidget {
   const App({super.key});
 
