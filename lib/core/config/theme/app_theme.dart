@@ -11,6 +11,6 @@ class AppTheme {
   /// The dark theme data.
   static final ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
-    useMaterial3: true
+    useMaterial3: true,
   );
 }
