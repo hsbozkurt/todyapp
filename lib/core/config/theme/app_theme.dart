@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 
-import 'package:todyapp/core/config/theme/app_colors.dart';
+// import 'package:todyapp/core/config/theme/app_colors.dart';
 
 /// This class contains the theme data used in the app.
+/// TODO: Implement
 class AppTheme {
   /// The light theme data.
   static final ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     useMaterial3: true,
-    colorScheme: _colorScheme,
+    // colorScheme: _colorScheme,
   );
 
-  // Color scheme of the app
-  static final ColorScheme _colorScheme = ColorScheme.fromSeed(
-    seedColor: AppColors.brandDefault,
-  );
+  // // Color scheme of the app
+  // static final ColorScheme _colorScheme = ColorScheme.fromSeed(
+  //   seedColor: AppColors.brandDefault,
+  // );
 
   /// The dark theme data.
   static final ThemeData darkTheme = ThemeData(
