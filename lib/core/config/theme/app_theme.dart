@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 import 'package:todyapp/core/config/theme/app_colors.dart';
 
@@ -10,7 +9,6 @@ class AppTheme {
     brightness: Brightness.light,
     useMaterial3: true,
     colorScheme: _colorScheme,
-    textTheme: GoogleFonts.barlowTextTheme(),
   );
 
   // Color scheme of the app
