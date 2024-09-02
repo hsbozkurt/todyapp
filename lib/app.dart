@@ -11,7 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppTheme.lightTheme,
-      // darkTheme: AppTheme.darkTheme,
+      // TODO: darkTheme: AppTheme.darkTheme,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter Demo'),
