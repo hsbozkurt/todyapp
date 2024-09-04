@@ -10,19 +10,32 @@ class AppTheme {
     brightness: Brightness.light,
     useMaterial3: true,
     colorScheme: _lightColorScheme,
+    textTheme: _lightTextTheme,
   );
 
   // Color scheme of the app
   static const ColorScheme _lightColorScheme = ColorScheme(
-    primary: AppColors.brandDefault,
-    secondary: AppColors.brandBackground,
-    surface: AppColors.neutralBackground,
-    error: AppColors.errorDefault,
-    onPrimary: AppColors.neutralWhite,
-    onSecondary: AppColors.brandDefault,
-    onSurface: AppColors.neutralPrimary,
-    onError: AppColors.neutralWhite,
+    primary: AppColors.primaryColor,
+    secondary: AppColors.secondaryColor,
+    surface: AppColors.bgColor,
+    error: AppColors.errorColor,
+    onPrimary: AppColors.primaryForegroundColor,
+    onSecondary: AppColors.secondaryForegroundColor,
+    onSurface: AppColors.foregroundColor,
+    onError: AppColors.errorForegroundColor,
     brightness: Brightness.light,
+  );
+
+  // Text theme of the app
+  static const TextTheme _lightTextTheme = TextTheme(
+    bodyLarge: TextStyle(
+      fontSize: 26,
+      fontWeight: FontWeight.w600,
+    ),
+    bodyMedium: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.w600,
+    ),
   );
 
   /// The dark theme data.
