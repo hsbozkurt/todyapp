@@ -28,13 +28,32 @@ class AppTheme {
 
   // Text theme of the app
   static const TextTheme _lightTextTheme = TextTheme(
-    bodyLarge: TextStyle(
+    headlineLarge: TextStyle(
       fontSize: 26,
       fontWeight: FontWeight.w600,
     ),
-    bodyMedium: TextStyle(
-      fontSize: 20,
+    headlineMedium: TextStyle(
+      fontSize: 24,
       fontWeight: FontWeight.w600,
+    ),
+    headlineSmall: TextStyle(
+      fontSize: 18,
+      fontWeight: FontWeight.w600,
+    ),
+    labelLarge: TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.w400,
+      height: 1.25,
+    ),
+    labelMedium: TextStyle(
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      height: 1.57143,
+    ),
+    labelSmall: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      height: 1.66667,
     ),
   );
 
